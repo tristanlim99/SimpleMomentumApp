@@ -1,0 +1,224 @@
+#clock {
+  width: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 9rem;
+  margin-top: 0%;
+}
+
+@media all and (max-width: 500px) {
+  #clock {
+    font-size: 5rem;
+  }
+  ul img {
+    width: 1rem;
+  }
+  ul i {
+    font-size: 1rem;
+  }
+  div.greeting {
+    margin-top: 5%;
+  }
+  div.greeting input {
+    margin: 0;
+  }
+  div .greet {
+    font-size: 3rem;
+  }
+  div .showName {
+    padding: 0;
+    font-size: 3rem;
+    margin: 0;
+  }
+  .to-do-section {
+    display: none;
+  }
+  .to-do-section h1 {
+    font-size: 3rem;
+  }
+  .to-do-section .todolists {
+    margin: 0;
+  }
+  div .quoteContainer {
+    width: 90%;
+  }
+  .quoteContainer .quoteDisplay {
+    font-size: .8rem;
+  }
+}
+
+.todolists {
+  margin: 0;
+  color: white;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 3px solid white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.todolists input {
+  margin: 0;
+}
+
+.todolists::-webkit-input-placeholder {
+  color: white;
+}
+
+.todolists:-ms-input-placeholder {
+  color: white;
+}
+
+.todolists::-ms-input-placeholder {
+  color: white;
+}
+
+.todolists::placeholder {
+  color: white;
+}
+
+.to-do-section {
+  margin: 1rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.to-do-section h1 {
+  font-size: 2rem;
+}
+
+.to-do-section ul {
+  width: 100%;
+  height: 12rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-y: auto;
+  max-height: 9.5rem;
+  line-height: 0rem;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.greeting {
+  text-align: center;
+}
+
+.greeting h2 {
+  font-size: 3rem;
+}
+
+.greeting input {
+  margin: 40px 0 0 0;
+  color: black;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 3px solid white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.greeting input::-webkit-input-placeholder {
+  color: white;
+}
+
+.greeting input:-ms-input-placeholder {
+  color: white;
+}
+
+.greeting input::-ms-input-placeholder {
+  color: white;
+}
+
+.greeting input::placeholder {
+  color: white;
+}
+
+h2 {
+  display: inline-block;
+  padding: .5rem;
+  font-size: 5rem;
+}
+
+h2 .btn {
+  display: none;
+}
+
+.quoteContainer {
+  margin: 2rem;
+  font-size: 2rem;
+  text-shadow: 1px black;
+  position: absolute;
+  width: 100%;
+  height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.quoteContainer button {
+  visibility: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 2px 2px black;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 100%;
+  height: 100vh;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+ul li {
+  margin-top: 1rem;
+}
+
+ul img {
+  width: 2rem;
+}
+
+ul i {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

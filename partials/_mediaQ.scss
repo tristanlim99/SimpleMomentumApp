@@ -1,0 +1,42 @@
+@media all and (max-width:500px) {
+    #clock{
+        font-size: 5rem;
+    }
+    ul{
+        img{
+         width: 1rem;
+        }
+        i{
+            font-size: 1rem;
+        }
+        }
+    div.greeting{
+     margin-top: 5%;
+    }
+    div.greeting input{
+        margin: 0;
+    }
+    div .greet{
+        font-size: 3rem;
+    }
+    div .showName{
+        padding: 0;
+        font-size: 3rem;
+        margin: 0;
+    }
+    .to-do-section{
+        display: none;
+    }
+    .to-do-section h1{
+        font-size: 3rem;
+    }
+    .to-do-section .todolists{
+        margin: 0;
+    }
+    div .quoteContainer{
+        width: 90%;
+    }
+    .quoteContainer .quoteDisplay{
+        font-size: .8rem;
+    }
+}

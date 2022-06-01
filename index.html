@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script src="js/script.js" defer></script>
+    <script src="js/toDo.js" defer></script>
+    <script src="js/quote.js" defer></script>
+    <title>Momentum-App</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-------top-banner------->
+      <nav>
+        <ul>
+          <!-- <li><img src="img/searchIcon.png" /></li> -->
+          <li><i class="fa-solid fa-gear"></i></li>
+        </ul>
+      </nav>
+      <!------clock------>
+      <div id="clock"></div>
+      <!----greeting---->
+      <div class="greeting">
+        <h2 id="greet" class="greet">
+          <h2 id="showName" class="showName">
+            <form method="get">
+              <input
+                type="text"
+                id="dataName"
+                placeholder="Enter Your Name Senpai"
+              />
+              <input type="submit" value="click me" id="btn" class="btn" />
+            </form>
+          </h2>
+        </h2>
+      </div>
+      <!---toDo-->
+      <div class="to-do-section">
+        <h1>What's your main focus for today?</h1>
+        <form id="todo-form" class="todo-form">
+          <input class="todolists" type="text" />
+        </form>
+        <ul id="todo-list" class="to-do-list"></ul>
+      </div>
+      <!--Quote Generator--->
+      <div class="quoteContainer">
+        <div id="quoteDisplay" class="quoteDisplay"></div>
+        <!--quotes will display here-->
+        <button onclick="newQuote()" id="button">New Quote</button>
+      </div>
+    </div>
+  </body>
+</html>
