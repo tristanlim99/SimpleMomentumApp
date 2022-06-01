@@ -6,4 +6,4 @@ Tech Stack
 * JAVASCRIPT
 
 Live Demo
- https://tristanlim99.github.io/Simple-Momentum-App/
+https://tristanlim99.github.io/SimpleMomentumApp/
